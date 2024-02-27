@@ -6,7 +6,7 @@ using namespace std;
 	{
 #pragma region 15059. Hard choice
 
-		int ca, ba, pa, cr, br, pr;
+		/*int ca, ba, pa, cr, br, pr;
 		int result = 0;
 
 		cin >> ca >> ba >> pa >> cr >> br >> pr;
@@ -29,9 +29,27 @@ using namespace std;
 			result += p;
 		}
 
-		cout << result;
+		cout << result;*/
 
 #pragma endregion
+
+#pragma region 15232. Rectangles
+
+		int r, c;
+
+		cin >> r >> c;
+
+		for (int i = 0; i < r; i++)
+		{
+			for (int j = 0; j < c; j++)
+			{
+				printf("*");
+			}
+			printf("\n");
+		}
+
+#pragma endregion
+
 
 		return 0;
 	}
