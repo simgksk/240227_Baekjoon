@@ -6,7 +6,7 @@ using namespace std;
 	{
 #pragma region 15059. Hard choice
 
-		/*int ca, ba, pa, cr, br, pr;
+		int ca, ba, pa, cr, br, pr;
 		int result = 0;
 
 		cin >> ca >> ba >> pa >> cr >> br >> pr;
@@ -29,7 +29,7 @@ using namespace std;
 			result += p;
 		}
 
-		cout << result;*/
+		cout << result;
 
 #pragma endregion
 
